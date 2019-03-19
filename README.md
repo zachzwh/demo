@@ -6,3 +6,6 @@
 
 3. 简易nodejs服务器：server.js
 
+4. CSS实现旋转太极：taiJi
+
+5. 画板：Canvas
