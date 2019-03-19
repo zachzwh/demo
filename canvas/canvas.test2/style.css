@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+#xxx{
+    background: #fff9d6;
+    display: block;
+}
+
+button{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
