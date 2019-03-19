@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>多栏布局</title>
+    <style>
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .wrapper{
+            max-width: 360px;
+            margin: 0 auto;
+            border: 1px solid;
+        }
+        /* 方法一 float+定宽 */
+        /* .left{
+            width: 20%;
+            float: left;
+            background: #1aa;
+        }
+        .middle{
+            width: 60%;
+            float: left;
+            background: #77a;
+        }
+        .right{
+            width: 20%;
+            float: left;
+            background: #a7a;
+        } */
+
+        /* 方法二 table-cell*/
+        .left{
+            display: table-cell;
+            width: 20%;
+            background: #1aa;
+        }
+        .middle{
+            display: table-cell;            
+            background: #77a;
+        }
+        .right{
+            display: table-cell;
+            width: 20%;
+            background: #a77;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper clearfix">
+        <div class="left">左边栏</div>
+        <div class="middle">中间栏中间栏中间栏中间栏中间栏中间栏</div>
+        <div class="right">右边栏</div>
+    </div>
+</body>
+</html>
