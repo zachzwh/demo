@@ -8,4 +8,4 @@
 
 4. CSS实现旋转太极：taiJi
 
-5. 画板：Canvas
+5. 画板：canvas
